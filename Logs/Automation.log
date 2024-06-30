@@ -347,3 +347,54 @@ Session ID: b8645638cd02a33f2ba92282e5a1d500
 10:37:19.176 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
 10:37:19.206 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
 10:37:19.365 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+18:11:43.960 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+18:11:44.006 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+18:11:44.006 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+18:11:44.007 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+18:11:44.009 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+18:11:44.011 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
+18:11:44.019 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+18:11:44.114 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
+18:11:44.116 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:15:53.860 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+18:15:53.876 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+18:15:53.879 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+18:15:53.879 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+18:15:53.880 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+18:15:53.880 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
+18:15:53.886 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+18:15:53.933 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
+18:15:53.934 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:16:05.134 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+18:16:27.051 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+18:16:27.097 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+18:16:27.377 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+18:16:27.762 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:16:27.763 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+18:16:29.084 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+18:16:35.836 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: QAWorlds
+18:16:37.852 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+18:16:37.852 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+18:16:38.282 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+18:16:38.313 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+18:16:38.348 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+18:16:38.349 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [11, 12, 13]
+18:16:41.584 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
+18:16:41.585 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
+18:16:42.347 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
+18:16:43.427 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
+18:16:43.428 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
+18:16:43.449 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 3 conversations moved to Trash.
+  Undo
+18:16:43.495 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74c12a821c200330c2414da11b06f3b7, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74c12a821c200330c2414da11b06f3b7
+18:16:43.496 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+18:16:44.686 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+18:16:44.798 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
