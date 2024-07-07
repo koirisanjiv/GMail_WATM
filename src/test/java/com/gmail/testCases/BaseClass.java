@@ -57,7 +57,7 @@ public class BaseClass {
 	public void browserSettingAndLogin(ITestContext context) {
 		logger.info("Browser and Login-Logout Settings");
 		// TO ENABLE/DISABLE DEBUGGGER MODE
-		String paramEnableDisableDebuggerMode = context.getCurrentXmlTest().getParameter("enableDisableDebuggerMode");
+		String paramEnableDisableDebuggerMode = context.getCurrentXmlTest().getParameter("enableDebuggerMode");
 		String[] debuggerModeAndPort = paramEnableDisableDebuggerMode.split(",");
 		wantToEnableDebuggerMode = Boolean.parseBoolean(debuggerModeAndPort[0].trim());
 		debuggerPort = Integer.parseInt(debuggerModeAndPort[1].trim());
@@ -81,7 +81,7 @@ public class BaseClass {
 		// TO DISABLE ADS AND NOTIFICATIONS
 		String paramWantToBlockAdsAndNotifications = context.getCurrentXmlTest()
 				.getParameter("wantToBlockAdsAndNotifications").trim();
-		incognitoMode = Boolean.parseBoolean(paramWantToBlockAdsAndNotifications);
+		wantToBlockAdsAndNotifications = Boolean.parseBoolean(paramWantToBlockAdsAndNotifications);
 		logger.info("wantToBlockAdsAndNotifications: " + wantToBlockAdsAndNotifications);
 
 	}

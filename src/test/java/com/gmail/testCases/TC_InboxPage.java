@@ -24,7 +24,7 @@ public class TC_InboxPage extends BaseClass {
 	public ClickOnAnyButton clickOnAnyButton = new ClickOnAnyButton();
 
 	// VARIABLES
-	String searchKey = "QAWorlds";
+	String searchKey = "Sanjiv Kumar";
 	String EmailSenderName = searchKey;
 	int searchKeyColumnIndex = 1;
 	boolean wantToGetMatchedRecords = true;

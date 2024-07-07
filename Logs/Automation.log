@@ -1,400 +1,218 @@
-17:26:12.045 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:26:12.124 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:26:12.125 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [52, 53, 54, 55, 56, 57, 58, 60, 61, 64, 65, 67, 68, 69, 70, 71, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 92, 93, 94, 95, 97, 99, 100]
-17:26:45.862 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:26:45.863 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:26:46.394 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-17:26:48.190 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 4
-17:26:48.241 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-17:26:48.420 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 37 conversations moved to Trash.
-  Undo
-17:26:48.420 [main] INFO  com.gmail.pageObject.PO_InboxPage - Alert Message: 37 conversations moved to Trash.
-  Undo
-17:26:48.436 [main] INFO  com.gmail.pageObject.PO_InboxPage - No more mail present and isNextButtonEnabled: false
-17:26:48.963 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-17:26:49.048 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-17:35:15.771 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-17:35:15.800 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-17:35:15.801 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-17:35:15.801 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-17:35:15.802 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-17:35:15.803 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-17:35:15.806 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-17:35:15.874 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-17:35:15.875 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-17:35:19.250 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-17:35:26.468 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-17:35:26.498 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-17:35:26.542 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-17:35:27.137 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-17:35:27.143 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-17:35:29.061 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-17:35:34.540 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: clickup team
-17:35:36.558 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:35:36.559 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:35:38.559 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:35:38.587 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:38.587 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:35:38.669 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:38.669 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:35:39.273 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:35:41.286 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:35:41.287 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:35:43.126 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:35:43.141 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:43.142 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:35:43.196 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:43.197 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:35:43.762 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:35:45.775 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:35:45.775 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:35:47.554 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:35:47.570 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:47.570 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:35:47.628 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:47.628 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:35:48.196 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:35:50.217 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:35:50.217 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:35:51.978 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:35:51.991 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:51.992 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:35:52.048 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:52.049 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:35:52.604 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:35:54.614 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:35:54.614 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:35:56.287 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:35:56.384 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [96]
-17:35:57.315 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:57.315 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:35:57.871 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-17:35:59.004 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-17:35:59.005 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-17:35:59.020 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: Conversation moved to Trash.
-  Undo
-17:35:59.021 [main] INFO  com.gmail.pageObject.PO_InboxPage - Alert Message: Conversation moved to Trash.
-  Undo
-17:35:59.046 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:35:59.047 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:35:59.622 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:36:01.636 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:36:01.636 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:36:03.344 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:36:03.359 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:03.359 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:36:03.406 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:03.407 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:36:03.944 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:36:05.953 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:36:05.953 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:36:08.533 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:36:08.546 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:08.546 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:36:08.599 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:08.600 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:36:09.241 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:36:11.250 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:36:11.250 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:36:12.975 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:12.999 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [99]
-17:36:13.939 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:13.939 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:36:14.479 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-17:36:15.609 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-17:36:15.610 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-17:36:15.625 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: Conversation moved to Trash.
-  Undo
-17:36:15.625 [main] INFO  com.gmail.pageObject.PO_InboxPage - Alert Message: Conversation moved to Trash.
-  Undo
-17:36:15.645 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:15.645 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:36:16.184 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:36:18.209 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:36:18.209 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:36:19.694 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:19.718 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:19.742 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:19.857 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:19.903 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [92, 93, 94, 98]
-17:36:23.552 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:23.552 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:36:24.085 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-17:36:25.278 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-17:36:25.279 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-17:36:25.295 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 4 conversations moved to Trash.
-  Undo
-17:36:25.296 [main] INFO  com.gmail.pageObject.PO_InboxPage - Alert Message: 4 conversations moved to Trash.
-  Undo
-17:36:25.316 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:25.316 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Older button and >> (//div[@aria-label='Older'])[2]
-17:36:25.866 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Older button
-17:36:27.881 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:36:27.881 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:36:28.617 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.682 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.705 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.730 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.778 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.800 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.822 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.846 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.870 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:36:28.870 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [58, 61, 62, 63, 65, 66, 67, 68, 69]
-17:36:36.989 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:36.989 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:36:37.516 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-17:36:38.545 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-17:36:38.545 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-17:36:38.568 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 9 conversations moved to Trash.
-  Undo
-17:36:38.573 [main] INFO  com.gmail.pageObject.PO_InboxPage - Alert Message: 9 conversations moved to Trash.
-  Undo
-17:36:39.616 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:36:39.617 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:36:40.834 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:36:40.845 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:36:40.846 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:36:40.890 [main] INFO  com.gmail.pageObject.PO_InboxPage - No more mail present and isNextButtonEnabled: false
-17:36:41.184 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-17:36:41.251 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-17:44:54.717 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-17:44:54.733 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-17:44:54.734 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-17:44:54.734 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-17:44:54.735 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-17:44:54.736 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-17:44:54.740 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-17:44:54.808 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-17:44:54.810 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-17:44:58.270 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-17:45:04.739 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-17:45:04.787 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-17:45:04.818 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-17:45:04.925 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-17:45:04.926 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-17:45:06.938 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-17:45:12.404 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: mcafee
-17:45:14.433 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:45:14.433 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:45:15.127 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.152 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.177 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.202 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.229 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.257 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.288 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.312 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.337 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.361 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.386 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-17:45:15.386 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
-17:45:25.664 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:45:25.664 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:45:26.222 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-17:45:27.255 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-17:45:27.256 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-17:45:27.280 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 11 conversations moved to Trash.
-  Undo
-17:45:27.572 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-17:45:27.639 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-17:49:49.444 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-17:49:49.468 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-17:49:49.470 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-17:49:49.471 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-17:49:49.472 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-17:49:49.473 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-17:49:49.475 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-17:49:49.557 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-17:49:49.560 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-17:49:53.253 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-17:50:00.083 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-17:50:00.143 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-17:50:00.168 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-17:50:00.307 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-17:50:00.314 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-17:50:02.203 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-17:50:07.666 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: mcafee
-17:50:09.686 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:50:09.686 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:50:10.345 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:50:10.371 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-17:50:10.371 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-17:50:10.443 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [610c5c3be878b23910d6ef06832dbdac, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 610c5c3be878b23910d6ef06832dbdac
-17:50:10.444 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
-17:50:10.505 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-17:50:10.574 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-17:55:16.421 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-17:55:16.439 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-17:55:16.440 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-17:55:16.441 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-17:55:16.441 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-17:55:16.442 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-17:55:16.445 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-17:55:16.502 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-17:55:16.504 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-17:55:19.678 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-17:55:25.768 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-17:55:26.036 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-17:55:26.066 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-17:55:26.174 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-17:55:26.175 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-17:55:27.828 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-17:55:33.306 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: mcafee
-17:55:35.314 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-17:55:35.315 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-17:55:35.974 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-17:55:36.014 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9303600d273094a020aa05ac25ca2a63, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9303600d273094a020aa05ac25ca2a63
-17:55:36.015 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
-17:55:36.064 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-17:55:36.139 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-18:02:31.701 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-18:02:31.719 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-18:02:31.720 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-18:02:31.721 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-18:02:31.723 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-18:02:31.724 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-18:02:31.728 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-18:02:31.793 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-18:02:31.794 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-18:02:35.225 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-18:02:41.362 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-18:02:41.424 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-18:02:41.473 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-18:02:41.595 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-18:02:41.606 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-18:02:43.611 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-18:02:49.106 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Postman Community
-18:02:51.126 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-18:02:51.126 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-18:02:51.814 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:51.839 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:51.874 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:51.902 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:51.926 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:51.952 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:51.979 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.003 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.033 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.061 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.085 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.111 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.140 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.165 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.194 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.218 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.245 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.271 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:02:52.319 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68]
-18:03:08.839 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-18:03:08.839 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-18:03:09.411 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-18:03:10.439 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-18:03:10.439 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-18:03:10.457 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 18 conversations moved to Trash.
-  Undo
-18:03:11.494 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-18:03:11.494 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-18:03:12.151 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-18:03:12.179 [main] INFO  com.gmail.pageObject.PO_InboxPage - No more mail present and isNextButtonEnabled: false
-18:03:12.219 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-18:03:12.282 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-10:36:45.023 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-10:36:45.121 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-10:36:45.121 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-10:36:45.122 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-10:36:45.123 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-10:36:45.124 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-10:36:45.129 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-10:36:45.179 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-10:36:45.181 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-10:36:58.583 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-10:36:58.609 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-10:36:58.641 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-10:36:58.666 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-10:36:58.839 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-10:36:58.840 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-10:37:11.021 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-10:37:16.839 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Postman Community
-10:37:18.853 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-10:37:18.854 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-10:37:19.082 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
-10:37:19.176 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+21:10:28.794 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+21:10:28.841 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+21:10:28.842 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+21:10:28.843 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+21:10:28.844 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
+21:10:28.848 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+21:10:28.898 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
+21:10:28.900 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:14:03.503 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+18:14:04.348 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+18:14:04.349 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+18:14:04.349 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+18:14:04.352 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+18:14:04.354 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: true
+18:14:04.358 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+18:14:04.389 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:14:04.390 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:14:08.818 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+18:14:16.000 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+18:14:16.064 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+18:14:16.099 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+18:14:16.655 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:14:16.656 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+18:14:17.901 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+18:14:23.677 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: QAWorlds
+18:14:26.192 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+18:14:26.192 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+18:14:26.388 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+18:14:26.461 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
   (Session info: chrome=126.0.6478.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8645638cd02a33f2ba92282e5a1d500, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Command: [679249ba4dc299222797754c3cb3019e, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b8645638cd02a33f2ba92282e5a1d500
-10:37:19.176 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
-10:37:19.206 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-10:37:19.365 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
-18:11:43.960 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-18:11:44.006 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-18:11:44.006 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-18:11:44.007 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-18:11:44.009 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-18:11:44.011 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-18:11:44.019 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-18:11:44.114 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-18:11:44.116 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-18:15:53.860 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
-18:15:53.876 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
-18:15:53.879 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
-18:15:53.879 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
-18:15:53.880 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
-18:15:53.880 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
-18:15:53.886 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
-18:15:53.933 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
-18:15:53.934 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-18:16:05.134 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
-18:16:27.051 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
-18:16:27.097 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
-18:16:27.377 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
-18:16:27.762 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
-18:16:27.763 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
-18:16:29.084 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
-18:16:35.836 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: QAWorlds
-18:16:37.852 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
-18:16:37.852 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
-18:16:38.282 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:16:38.313 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:16:38.348 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-18:16:38.349 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [11, 12, 13]
-18:16:41.584 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
-18:16:41.585 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
-18:16:42.347 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
-18:16:43.427 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-18:16:43.428 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-18:16:43.449 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 3 conversations moved to Trash.
+Session ID: 679249ba4dc299222797754c3cb3019e
+18:14:26.462 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+18:14:26.520 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+18:14:26.591 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+18:15:45.287 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+18:15:45.299 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+18:15:45.301 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+18:15:45.302 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+18:15:45.304 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+18:15:45.304 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: true
+18:15:45.307 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+18:15:45.341 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:15:45.342 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:15:48.357 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+18:15:48.389 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+18:15:48.410 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+18:15:48.430 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+18:15:48.511 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:15:48.512 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+18:15:52.298 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+18:15:57.854 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Leonardo Ai
+18:15:59.871 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+18:15:59.873 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+18:16:00.108 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+18:16:00.109 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [3]
+18:16:01.292 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
+18:16:01.292 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
+18:16:02.116 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
+18:16:03.197 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
+18:16:03.197 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
+18:16:03.227 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: Conversation moved to Trash.
   Undo
-18:16:43.495 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+18:16:03.264 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
   (Session info: chrome=126.0.6478.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74c12a821c200330c2414da11b06f3b7, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Command: [eb21d747128a9aebb2fb2d82cd4c3b8e, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74c12a821c200330c2414da11b06f3b7
-18:16:43.496 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
-18:16:44.686 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
-18:16:44.798 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+Session ID: eb21d747128a9aebb2fb2d82cd4c3b8e
+18:16:03.265 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+18:16:03.320 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+18:16:03.382 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+18:29:06.521 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+18:29:06.531 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+18:29:06.531 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+18:29:06.531 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+18:29:06.532 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+18:29:06.532 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: true
+18:29:06.535 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+18:29:06.565 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:29:06.566 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:29:09.816 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+18:29:09.939 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+18:29:09.983 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+18:29:10.011 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+18:29:10.113 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:29:10.114 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+18:29:10.863 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+18:29:16.484 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Leonardo Ai
+18:29:18.492 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+18:29:18.493 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+18:29:18.589 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+18:29:18.656 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80a52f68a9745447cc02b42376250697, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80a52f68a9745447cc02b42376250697
+18:29:18.657 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+18:29:18.707 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+18:29:18.785 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+19:21:35.352 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+19:21:35.374 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+19:21:35.375 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+19:21:35.376 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+19:21:35.377 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+19:21:35.377 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: true
+19:21:35.381 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+19:21:35.427 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:21:35.428 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:21:38.461 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+19:21:42.849 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+19:21:42.889 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+19:21:42.917 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+19:21:43.159 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+19:21:43.159 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+19:21:44.396 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+19:21:49.977 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Bitget
+19:21:52.021 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+19:21:52.022 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+19:21:52.110 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+19:21:52.229 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87914641feae7d7311910a2fc1dd78c4, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87914641feae7d7311910a2fc1dd78c4
+19:21:52.230 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+19:21:52.283 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+19:21:52.348 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+19:27:03.355 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+19:27:03.364 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+19:27:03.367 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+19:27:03.369 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+19:27:03.370 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+19:27:03.371 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: true
+19:27:03.373 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+19:27:03.404 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:27:03.405 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:27:06.988 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+19:27:07.029 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+19:27:07.142 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+19:27:07.165 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+19:27:07.268 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+19:27:07.268 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+19:27:08.100 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+19:27:13.688 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Sanjiv Kumar
+19:27:15.702 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+19:27:15.704 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+19:27:15.922 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+19:27:15.957 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+19:27:15.994 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
+19:27:15.995 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: [5, 6, 7]
+19:27:19.170 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: deleleEmails
+19:27:19.171 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Delete and >> (//div[@aria-label='Delete'])[2]
+19:27:20.004 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Delete
+19:27:21.070 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
+19:27:21.070 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
+19:27:21.093 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: 3 conversations moved to Trash.
+  Undo
+19:27:21.122 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d32721e926efef456f6b799cee7120da, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d32721e926efef456f6b799cee7120da
+19:27:21.122 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+19:27:21.171 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+19:27:21.231 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+19:35:22.991 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+19:35:23.000 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+19:35:23.001 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+19:35:23.001 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+19:35:23.002 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+19:35:23.003 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: true
+19:35:23.005 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+19:35:23.036 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:35:23.036 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:35:26.169 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+19:35:26.303 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+19:35:26.372 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+19:35:26.403 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+19:35:26.513 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+19:35:26.515 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+19:35:27.244 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+19:35:32.791 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Sanjiv Kumar
+19:35:34.821 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+19:35:34.822 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+19:35:34.881 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+19:35:34.942 [main] INFO  com.gmail.pageObject.PO_InboxPage - Exception while chacking '1-50 of Many' >> no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@aria-label='Older'])[2]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43277e6720afb3fba007e11456566d3c, findElement {using=xpath, value=(//div[@aria-label='Older'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43277e6720afb3fba007e11456566d3c
+19:35:34.943 [main] INFO  com.gmail.pageObject.PO_InboxPage - All the email deleted or No Email presence now...
+19:35:34.989 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+19:35:35.069 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
